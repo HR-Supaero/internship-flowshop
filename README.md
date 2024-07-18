@@ -21,6 +21,15 @@ This is my codes for my gap year's first project
 
   All variations also feature a robust counterpart, where processing times can randomly deviate from their nominal value. One a way in which the processing times can deviate is called a **scenario**, the goal is now to find the job sequence that minimizes the makespan in the worst case scenario.
 
+## Tools I used
+
+  I implemented the different flowshop models in Python using two important libraries:
+  - __Gurobi__ for MIP
+  - __DoCplex__ for CP
+
+  >[!NOTE]
+>If you want to run those models on your machine, you need to have a Gurobi API and the DoCplex environment set up on your machine.
+  
 ## Repository organisation
 
 
