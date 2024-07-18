@@ -32,6 +32,16 @@ This is my codes for my gap year's first project
   
 ## Repository organisation
 
+  The file names correspond to the flowshop model they implement.
+
+  Example:
+  no_wait_flowshop.py; implements the no wait flowshop model/
+
+  All models have their main counterpart, this is the file you may want to run for your desired flowshop model.
+
+  Example:
+  main_robust_nwt_flowshop.py contains the main to run the robust no wait flowshop model.
+
+  There will be specific README files for each model.
 
 
-## Code execution
