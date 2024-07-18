@@ -12,7 +12,7 @@ This is my codes for my gap year's first project
   - The order in which the jobs are processed is the same on each machine
   - Before being processed on a machine, a job processing has to be completed on the preceeding machine in the sequence.
 
-  The optimization consists of **finding the job sequence $(j_{1}, \ldots, j_{k}, j_{n})$ that minimizes the completion time of the last job on the last machine**, otherwise known as the **makespan**.
+  The optimization consists of **finding the job sequence $(j_{1}, \ldots, j_{k}, \ldots, j_{n})$ that minimizes the completion time of the last job on the last machine**, otherwise known as the **makespan**.
 
   There were three main variations of flowshop that I worked on:
   1. The Standard Flowshop
@@ -22,5 +22,7 @@ This is my codes for my gap year's first project
   All variations also feature a robust counterpart, where processing times can randomly deviate from their nominal value. One a way in which the processing times can deviate is called a **scenario**, the goal is now to find the job sequence that minimizes the makespan in the worst case scenario.
 
 ## Repository organisation
+
+
 
 ## Code execution
