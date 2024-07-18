@@ -36,13 +36,13 @@ This is my codes for my gap year's first project
 
   __Example__:
   
-  no_wait_flowshop.py; implements the no wait flowshop model
+  _no_wait_flowshop.py_; implements the no wait flowshop model
 
   All models have their main counterpart, this is the file you may want to run for your desired flowshop model.
 
   __Example__:
   
-  main_robust_nwt_flowshop.py contains the main to run the robust no wait flowshop model.
+  _main_robust_nwt_flowshop.py_ contains the main to run the robust no wait flowshop model.
 
   There will be specific README files for each model.
 
