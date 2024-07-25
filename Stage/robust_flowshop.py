@@ -292,7 +292,6 @@ def master_callback(model, where):
         MIPSOLnodecnt = model.cbGet(GRB.Callback.MIPSOL_NODCNT)
         print(f'There are {MIPSOLsolcnt} solutions')
         if MIPSOLsolcnt and MIPSOLnodecnt >= 1:
-            print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
             vars = model.getVars()
             try:
                 print(f'{vars[0]} {vars[0].Xn}')
@@ -300,15 +299,10 @@ def master_callback(model, where):
             except AttributeError:
                 print(f'Couldnt access the variables values')
             except Exception as e:
-                print('Cheh', e)
+                print(e)
 
         print(model.Status == GRB.INTERRUPTED)
         print(model.Status == GRB.OPTIMAL)
-        #for v in model.getVars():
-            #print('yo')
-                    
-            #print(f'{v.VarName}{type(v)}')
-            #print(f'{v}: {v.Xn}')
 
 def master_problem(
     processing_times, 
