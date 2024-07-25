@@ -44,6 +44,6 @@ This is my codes for my gap year's first project
   
   _main_robust_nwt_flowshop.py_ contains the main to run the robust no wait flowshop model.
 
-  There will be specific README files for each model.
+  Each folder contains the Python file that implements the corresponding model. There is also a 'gantt' folder for the visualisation of the solutions via gantt chart.
 
 
